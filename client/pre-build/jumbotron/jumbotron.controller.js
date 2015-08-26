@@ -1,5 +1,4 @@
 app.controller("JumbotronController", function($scope) {
-  $scope.title = "Hi!";
-  $scope.description = "This is a description.";
-
+  $scope.title = "Hi, I'm Ash Ryan.";
+  $scope.description = "This is not my website.";
 });
