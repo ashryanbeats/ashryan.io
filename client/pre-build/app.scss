@@ -10,6 +10,17 @@
   }
 }
 
+body {
+  background: linear-gradient(to bottom, rgba(75, 0, 0, 0.5) 0%, rgba(75, 0, 0, 0.5) 100%), url('nyc-skyline.jpg'), center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: black;
+}
+
+
 // Add your fractal Sass files below!
+@import 'buttons/buttons';
 @import 'navbar/navbar';
 @import 'home/home';
+@import 'jumbotron/jumbotron';
+@import 'links/links';
