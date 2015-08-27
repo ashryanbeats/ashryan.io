@@ -17,6 +17,9 @@ uncomment the following line and the related `app.use` line below.
 */
 // var bowerPath = path.join(__dirname, '../bower_components');
 
+var config = require('../config.js');
+app.use(require('prerender-node').set('prerenderToken', config.PRERENDER_KEY));
+
 app.use(logger('dev'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
